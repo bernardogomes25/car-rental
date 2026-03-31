@@ -1,0 +1,11 @@
+package com.aluguel;
+
+import io.micronaut.runtime.Micronaut;
+
+public class Application {
+
+    public static void main(String[] args) {
+        Micronaut.run(Application.class, args);
+        System.out.println("hello, world!");
+    }
+}
